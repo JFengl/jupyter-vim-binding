@@ -69,7 +69,7 @@ define([
     cm_config.keyMap = 'vim';
     cm_config.extraKeys = $.extend(cm_config.extraKeys || {}, {
       'Esc': CodeMirror.prototype.leaveInsertMode,
-      'Command-Esc': CodeMirror.prototype.leaveNormalMode,
+      'Esc-Esc': CodeMirror.prototype.leaveNormalMode,
       'Ctrl-C': false,  // To enable clipboard copy
     });
 
